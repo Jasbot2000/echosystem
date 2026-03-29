@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f62d0e427a1c941929d4f573860f903b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  cameraPosition: {fileID: 0}
+  cameraPosition: {fileID: 1735090827}
 --- !u!1 &764521925
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,6 +175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 764521926}
   - component: {fileID: 764521927}
+  - component: {fileID: 764521928}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -227,6 +228,25 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &764521928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764521925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24d8b47b0c6d4bb9bac913c09746571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  moveSpeed: 0
+  groundDrag: 0
+  playerHeight: 0
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  orientation: {fileID: 0}
 --- !u!1 &1023304458
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
   m_listeners:
     initialListenerList: []
-    useDefaultListeners: 1
+    useDefaultListeners: 0
   isEnvironmentAware: 0
   isStaticObject: 0
   usePositionOffsetData: 0
