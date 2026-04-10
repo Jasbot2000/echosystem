@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F0F16075-9F49-4BDB-94A8-7C79970AFD42}" SchemaVersion="133">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{F0F16075-9F49-4BDB-94A8-7C79970AFD42}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F0F16075-9F49-4BDB-94A8-7C79970AFD42}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Frog" ID="{F1F48923-93AE-4E96-B64E-E51AEEF06BED}">
+					<ChildrenList>
+						<Action Name="" ID="{394BF217-61CB-4E37-86A4-6FC2196AF553}" ShortID="790393519">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Frog" ID="{9EB5A408-298B-4904-8A07-DE353B925940}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayRandom" ID="{87E5E838-BFF2-42DF-8E23-405084B8629E}">
+					<ChildrenList>
+						<Action Name="" ID="{00E76985-59F6-493D-B67F-C0E87911FDB2}" ShortID="951868342">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomEvents" ID="{8F6C4C29-3AC2-4AAE-AE5B-6C9C98B4C910}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bird" ID="{11852270-63C7-4D8E-8321-964E84C92EEF}">
+					<ChildrenList>
+						<Action Name="" ID="{FA1D2154-1D17-4D27-97D1-758A24268447}" ShortID="291483411">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bird" ID="{82463FF7-3404-4F22-BA7B-D8F1D0FB05F3}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bug" ID="{0EF08CAF-65BE-4DD1-B5B8-8B863E610B47}">
+					<ChildrenList>
+						<Action Name="" ID="{DE38D777-CA98-4180-AE32-8C59AC7DCF61}" ShortID="237446207">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bug" ID="{7CD19105-5FDB-46D9-8B1D-BD73BB10B3CB}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
