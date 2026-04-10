@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ca9d2870c89ae419b6d7479a504873, type: 3}
+  m_Name: 1B39554D-BDBE-427F-A6FC-D5B137D961B8
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseBankReference
+  objectName: FreakingRealBank
+  id: 2627485820
+  guid: 1B39554D-BDBE-427F-A6FC-D5B137D961B8

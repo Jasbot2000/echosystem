@@ -12,7 +12,7 @@
     "GUID": "{F8ADC526-57FF-46BE-A40B-F5641FF8A1B1}",
     "BasePlatform": "Mac",
     "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
-    "Path": "Mac"
+    "Path": "../../Assets/StreamingAssets"
    },
    {
     "Name": "Windows",
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{6B65E8FB-054B-2274-9AD9-A02DCA4E2EE2}"
+  "FileHash": "{09C87526-A752-6151-7E5B-E37D2305315C}"
  }
 }

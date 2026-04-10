@@ -19,6 +19,12 @@ namespace AK
         static const AkUniqueID PLAYRANDOM = 2409657758U;
     } // namespace EVENTS
 
+    namespace BANKS
+    {
+        static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID FREAKINGREALBANK = 2627485820U;
+    } // namespace BANKS
+
     namespace BUSSES
     {
         static const AkUniqueID MAIN_AUDIO_BUS = 2246998526U;
