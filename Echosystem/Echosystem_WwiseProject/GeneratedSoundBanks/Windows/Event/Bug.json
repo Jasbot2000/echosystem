@@ -1,0 +1,67 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "714721617",
+    "Type": "Event",
+    "GUID": "{0EF08CAF-65BE-4DD1-B5B8-8B863E610B47}",
+    "Language": "SFX",
+    "Hash": "{D65BF96F-DDF0-9B5E-7FF2-F0FBD05C21BE}",
+    "ObjectPath": "Bug",
+    "ShortName": "Bug",
+    "Path": "Event/Bug.bnk",
+    "Media": [
+     {
+      "Id": "687691714",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BugClicking.wav",
+      "Path": "Media/687691714.wem",
+      "CachePath": "B3/{B3D181E8-A169-05E9-A099-3A60B4FCBFA8}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "714721617",
+      "Name": "Bug",
+      "ObjectPath": "\\Events\\Default Work Unit\\Bug",
+      "GUID": "{0EF08CAF-65BE-4DD1-B5B8-8B863E610B47}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.489584",
+      "DurationMax": "3.6757917",
+      "MediaRefs": [
+       {
+        "Id": "687691714"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{48ABB3CF-1CE4-1617-AD7F-FA37A8D4CB6E}"
+ }
+}

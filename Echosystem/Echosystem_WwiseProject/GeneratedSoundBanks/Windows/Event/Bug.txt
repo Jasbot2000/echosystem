@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	714721617	Bug			\Default Work Unit\Bug	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+

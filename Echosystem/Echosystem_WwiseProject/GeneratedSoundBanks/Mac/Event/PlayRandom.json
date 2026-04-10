@@ -1,0 +1,144 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2409657758",
+    "Type": "Event",
+    "GUID": "{87E5E838-BFF2-42DF-8E23-405084B8629E}",
+    "Language": "SFX",
+    "Hash": "{1822D13D-A336-2268-AA78-000EE5A29B53}",
+    "ObjectPath": "PlayRandom",
+    "ShortName": "PlayRandom",
+    "Path": "Event/PlayRandom.bnk",
+    "Media": [
+     {
+      "Id": "122655079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "NEWBIRD.wav",
+      "Path": "Media/122655079.wem",
+      "CachePath": "6C/{6CBBD11B-4438-AC20-56D4-DBF7E2498CD9}.wem"
+     },
+     {
+      "Id": "687691714",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BugClicking.wav",
+      "Path": "Media/687691714.wem",
+      "CachePath": "B3/{B3D181E8-A169-05E9-A099-3A60B4FCBFA8}.wem"
+     },
+     {
+      "Id": "820090052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SynthFrog1.wav",
+      "Path": "Media/820090052.wem",
+      "CachePath": "79/{79F221F8-C0A6-6051-74F5-D52654E71EDE}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "135916062",
+       "Name": "Have_U_Ever_Been_Outside (Custom)  ",
+       "ObjectPath": "\\Containers\\Default Work Unit\\Bird\\[Effect Slot [0]: (RoomVerb)]\\Have_U_Ever_Been_Outside (Custom)  ",
+       "GUID": "{596EA0E4-896E-4AA5-B085-54B185248524}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1544377644",
+      "Name": "Bird",
+      "ObjectPath": "\\Events\\Default Work Unit\\Bird",
+      "GUID": "{11852270-63C7-4D8E-8321-964E84C92EEF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6654834",
+      "DurationMax": "1.7543552",
+      "MediaRefs": [
+       {
+        "Id": "122655079"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "135916062"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "714721617",
+      "Name": "Bug",
+      "ObjectPath": "\\Events\\Default Work Unit\\Bug",
+      "GUID": "{0EF08CAF-65BE-4DD1-B5B8-8B863E610B47}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.489584",
+      "DurationMax": "3.6757917",
+      "MediaRefs": [
+       {
+        "Id": "687691714"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2492899947",
+      "Name": "Frog",
+      "ObjectPath": "\\Events\\Default Work Unit\\Frog",
+      "GUID": "{F1F48923-93AE-4E96-B64E-E51AEEF06BED}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.4933352",
+      "DurationMax": "4.733104",
+      "MediaRefs": [
+       {
+        "Id": "820090052"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2409657758",
+      "Name": "PlayRandom",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayRandom",
+      "GUID": "{87E5E838-BFF2-42DF-8E23-405084B8629E}",
+      "DurationType": "Infinite"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6B1369D3-AE32-BC25-0DF9-2C3CD0BBEA8C}"
+ }
+}
