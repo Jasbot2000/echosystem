@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2627485820",
+    "Type": "User",
+    "GUID": "{1B39554D-BDBE-427F-A6FC-D5B137D961B8}",
+    "Language": "SFX",
+    "Hash": "{D27C5908-38F7-2B35-914B-E684E798AAEC}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\FreakingRealBank",
+    "ShortName": "FreakingRealBank",
+    "Path": "FreakingRealBank.bnk"
+   }
+  ],
+  "FileHash": "{30AFAB06-CED3-6578-169D-5513FBA8C374}"
+ }
+}
