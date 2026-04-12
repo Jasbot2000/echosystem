@@ -1,0 +1,65 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3605787649",
+    "Type": "Event",
+    "GUID": "{687EF2EF-96C5-44A8-B18E-2257015AD37C}",
+    "Language": "SFX",
+    "Hash": "{D7721BFA-0EE6-AE14-D37A-00164FDADBC5}",
+    "ObjectPath": "River",
+    "ShortName": "River",
+    "Path": "Event/River.bnk",
+    "Media": [
+     {
+      "Id": "257528925",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Echosystem Water.wav",
+      "Path": "Media/257528925.wem",
+      "CachePath": "86/{86BF929C-DDA8-D2C8-E4D1-B5F66E0164D1}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "4239446561",
+       "Name": "Dual_Filters_Narrow_Bandwidth",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Band Pass Filters\\Dual_Filters_Narrow_Bandwidth",
+       "GUID": "{A24607C6-04E1-4D41-B513-28C0914D138D}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3605787649",
+      "Name": "River",
+      "ObjectPath": "\\Events\\Default Work Unit\\River",
+      "GUID": "{687EF2EF-96C5-44A8-B18E-2257015AD37C}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "257528925"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "4239446561"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{77FAB6EE-B542-BBCB-93D0-2AEF79EAC5AE}"
+ }
+}

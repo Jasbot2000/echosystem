@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "4264094620",
+    "Type": "Event",
+    "GUID": "{5DF14863-E084-4BF1-B48C-09BCB446664E}",
+    "Language": "SFX",
+    "Hash": "{BA12863A-53F5-E7F7-23C7-C3EB7767D2F1}",
+    "ObjectPath": "WindBase",
+    "ShortName": "WindBase",
+    "Path": "Event/WindBase.bnk",
+    "Media": [
+     {
+      "Id": "121323184",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Echosystem Base Wind.wav",
+      "Path": "Media/121323184.wem",
+      "CachePath": "19/{19E6F6E9-2BEA-DAEE-244E-84897E15B273}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4264094620",
+      "Name": "WindBase",
+      "ObjectPath": "\\Events\\Default Work Unit\\WindBase",
+      "GUID": "{5DF14863-E084-4BF1-B48C-09BCB446664E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "121323184"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{204425F5-0307-22FF-265D-9972621FCC14}"
+ }
+}

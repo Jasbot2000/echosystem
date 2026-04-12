@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0EF08CAF-65BE-4DD1-B5B8-8B863E610B47}",
     "Language": "SFX",
-    "Hash": "{D65BF96F-DDF0-9B5E-7FF2-F0FBD05C21BE}",
+    "Hash": "{648FAE3B-C198-6EF9-039F-05E8CEC084D5}",
     "ObjectPath": "Bug",
     "ShortName": "Bug",
     "Path": "Event/Bug.bnk",
@@ -62,6 +62,6 @@
     ]
    }
   ],
-  "FileHash": "{48ABB3CF-1CE4-1617-AD7F-FA37A8D4CB6E}"
+  "FileHash": "{B93A3C36-C030-B905-B9BD-951E396C33DD}"
  }
 }

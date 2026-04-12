@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{87E5E838-BFF2-42DF-8E23-405084B8629E}",
     "Language": "SFX",
-    "Hash": "{1822D13D-A336-2268-AA78-000EE5A29B53}",
+    "Hash": "{C2591D2B-3196-6504-3E14-C24A84AD5BE1}",
     "ObjectPath": "PlayRandom",
     "ShortName": "PlayRandom",
     "Path": "Event/PlayRandom.bnk",
@@ -139,6 +139,6 @@
     ]
    }
   ],
-  "FileHash": "{A4AA4CB1-D233-1BB4-EFB6-B2A92E7071C1}"
+  "FileHash": "{81741D76-430B-FA2D-1BEF-E65309392133}"
  }
 }

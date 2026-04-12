@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	31267972	CicadasForeground			\Default Work Unit\CicadasForeground	
+

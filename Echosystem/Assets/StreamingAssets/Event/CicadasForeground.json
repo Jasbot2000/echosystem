@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "31267972",
+    "Type": "Event",
+    "GUID": "{93DC0671-8A42-4E5D-8069-DE8B86A7B3BF}",
+    "Language": "SFX",
+    "Hash": "{FA1BED17-9AA9-97EF-CEA7-D83EDEF447BB}",
+    "ObjectPath": "CicadasForeground",
+    "ShortName": "CicadasForeground",
+    "Path": "Event/CicadasForeground.bnk",
+    "Media": [
+     {
+      "Id": "160046872",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Echosystem Cicadas Foreground.wav",
+      "Path": "Media/160046872.wem",
+      "CachePath": "D0/{D0A26C71-975A-AD4C-49EF-01718615772D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "31267972",
+      "Name": "CicadasForeground",
+      "ObjectPath": "\\Events\\Default Work Unit\\CicadasForeground",
+      "GUID": "{93DC0671-8A42-4E5D-8069-DE8B86A7B3BF}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "160046872"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CB68FB33-BD78-AFFB-0E93-7895AA1CBEB7}"
+ }
+}
