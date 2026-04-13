@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{87E5E838-BFF2-42DF-8E23-405084B8629E}",
     "Language": "SFX",
-    "Hash": "{C2591D2B-3196-6504-3E14-C24A84AD5BE1}",
+    "Hash": "{220F6C45-8FEC-06AA-A6BD-E9B3AFDFECD6}",
     "ObjectPath": "PlayRandom",
     "ShortName": "PlayRandom",
     "Path": "Event/PlayRandom.bnk",
@@ -43,28 +43,6 @@
       "CachePath": "79/{79F221F8-C0A6-6051-74F5-D52654E71EDE}.wem"
      }
     ],
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "135916062",
-       "Name": "Have_U_Ever_Been_Outside (Custom)  ",
-       "ObjectPath": "\\Containers\\Default Work Unit\\Bird\\[Effect Slot [0]: (RoomVerb)]\\Have_U_Ever_Been_Outside (Custom)  ",
-       "GUID": "{596EA0E4-896E-4AA5-B085-54B185248524}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
-      }
-     ],
-     "ShareSets": [
-      {
-       "Id": "48620415",
-       "Name": "Have_U_Ever_Been_Outside",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
-       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
-      }
-     ]
-    },
     "Events": [
      {
       "Id": "1544377644",
@@ -78,14 +56,7 @@
        {
         "Id": "122655079"
        }
-      ],
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "135916062"
-        }
-       ]
-      }
+      ]
      },
      {
       "Id": "714721617",
@@ -99,14 +70,7 @@
        {
         "Id": "687691714"
        }
-      ],
-      "PluginRefs": {
-       "ShareSets": [
-        {
-         "Id": "48620415"
-        }
-       ]
-      }
+      ]
      },
      {
       "Id": "2492899947",
@@ -120,14 +84,7 @@
        {
         "Id": "820090052"
        }
-      ],
-      "PluginRefs": {
-       "ShareSets": [
-        {
-         "Id": "48620415"
-        }
-       ]
-      }
+      ]
      },
      {
       "Id": "2409657758",
@@ -139,6 +96,6 @@
     ]
    }
   ],
-  "FileHash": "{81741D76-430B-FA2D-1BEF-E65309392133}"
+  "FileHash": "{B3A78FA4-BCBA-73C3-5D48-3589CBE7A1E2}"
  }
 }

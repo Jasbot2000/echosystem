@@ -1,0 +1,104 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3882419218",
+    "Type": "Event",
+    "GUID": "{5C339945-08FD-4B38-B85E-CBD227F69613}",
+    "Language": "SFX",
+    "Hash": "{0A5F7454-73C4-9414-9867-780B3ECC9741}",
+    "ObjectPath": "Tree1",
+    "ShortName": "Tree1",
+    "Path": "Event/Tree1.bnk",
+    "Media": [
+     {
+      "Id": "344286681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AwesomeTrillingBird.wav",
+      "Path": "Media/344286681.wem",
+      "CachePath": "F2/{F24F8DA9-96C8-8ABB-B258-518B49F922DE}.wem"
+     },
+     {
+      "Id": "418693580",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BugClicking.wav",
+      "Path": "Media/418693580.wem",
+      "CachePath": "73/{735B73DB-D5B3-AD0E-5EF7-F15FA6145855}.wem"
+     },
+     {
+      "Id": "985859729",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "NEWBIRD.wav",
+      "Path": "Media/985859729.wem",
+      "CachePath": "9C/{9C1BFE2A-FC29-EECB-58AD-66C4FA83223E}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "856912810",
+       "Name": "Have_U_Ever_Been_Outside (Custom)  ",
+       "ObjectPath": "\\Containers\\Default Work Unit\\SpacializeEverything\\Tree1\\Bird\\[Effect Slot [0]: (RoomVerb)]\\Have_U_Ever_Been_Outside (Custom)  ",
+       "GUID": "{7F49254D-8340-492E-AE21-82D985D08840}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3882419218",
+      "Name": "Tree1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Tree1",
+      "GUID": "{5C339945-08FD-4B38-B85E-CBD227F69613}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "344286681"
+       },
+       {
+        "Id": "418693580"
+       },
+       {
+        "Id": "985859729"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "856912810"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{436262EB-4D93-D62D-BC03-7DD2BC60C285}"
+ }
+}

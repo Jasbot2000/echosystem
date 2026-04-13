@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3882419218	Tree1			\Default Work Unit\Tree1	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	856912810	Have_U_Ever_Been_Outside (Custom)  	Wwise RoomVerb			
+

@@ -4,7 +4,3 @@ Event	ID	Name			Wwise Object Path	Notes
 	2409657758	PlayRandom			\Default Work Unit\PlayRandom	
 	2492899947	Frog			\Default Work Unit\Frog	
 
-Effect plug-ins	ID	Name	Type				Notes
-	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
-	135916062	Have_U_Ever_Been_Outside (Custom)  	Wwise RoomVerb			
-

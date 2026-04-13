@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0EF08CAF-65BE-4DD1-B5B8-8B863E610B47}",
     "Language": "SFX",
-    "Hash": "{648FAE3B-C198-6EF9-039F-05E8CEC084D5}",
+    "Hash": "{C4A9DA04-A7CF-4F2F-1DAF-E7074266E8E6}",
     "ObjectPath": "Bug",
     "ShortName": "Bug",
     "Path": "Event/Bug.bnk",
@@ -25,18 +25,6 @@
       "CachePath": "B3/{B3D181E8-A169-05E9-A099-3A60B4FCBFA8}.wem"
      }
     ],
-    "Plugins": {
-     "ShareSets": [
-      {
-       "Id": "48620415",
-       "Name": "Have_U_Ever_Been_Outside",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
-       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
-      }
-     ]
-    },
     "Events": [
      {
       "Id": "714721617",
@@ -50,18 +38,11 @@
        {
         "Id": "687691714"
        }
-      ],
-      "PluginRefs": {
-       "ShareSets": [
-        {
-         "Id": "48620415"
-        }
-       ]
-      }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{B93A3C36-C030-B905-B9BD-951E396C33DD}"
+  "FileHash": "{F7E5F60F-9411-8938-E253-99EC9F8C6DD4}"
  }
 }
