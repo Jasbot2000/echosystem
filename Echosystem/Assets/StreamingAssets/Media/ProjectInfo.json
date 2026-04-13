@@ -12,7 +12,7 @@
     "GUID": "{F8ADC526-57FF-46BE-A40B-F5641FF8A1B1}",
     "BasePlatform": "Mac",
     "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
-    "Path": ".."
+    "Path": "../../../Echosystem_WwiseProject/SoundBanks"
    },
    {
     "Name": "Windows",
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{C26D39C1-179C-F8F8-49B8-1D12CCBB4FF9}"
+  "FileHash": "{4305AB9F-DEBA-3A19-3E74-B3607C46CB26}"
  }
 }
