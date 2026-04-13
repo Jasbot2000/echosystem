@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5C339945-08FD-4B38-B85E-CBD227F69613}",
     "Language": "SFX",
-    "Hash": "{2CE15B6A-279C-05B8-A228-342AFE4E4119}",
+    "Hash": "{7955A5BD-3A3D-54E6-BDC0-09DEC7B5CC4B}",
     "ObjectPath": "Tree1",
     "ShortName": "Tree1",
     "Path": "Event/Tree1.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "AwesomeTrillingBird.wav",
       "Path": "Media/344286681.wem",
-      "CachePath": "CA/{CA6C0310-C0C4-674C-4D11-866276A6ECF8}.wem"
+      "CachePath": "F2/{F24F8DA9-96C8-8ABB-B258-518B49F922DE}.wem"
      },
      {
       "Id": "418693580",
@@ -31,7 +31,7 @@
       "Location": "Loose",
       "ShortName": "BugClicking.wav",
       "Path": "Media/418693580.wem",
-      "CachePath": "B5/{B5641781-2B73-F50E-28C0-FC3AA246CD03}.wem"
+      "CachePath": "73/{735B73DB-D5B3-AD0E-5EF7-F15FA6145855}.wem"
      },
      {
       "Id": "985859729",
@@ -40,7 +40,7 @@
       "Location": "Loose",
       "ShortName": "NEWBIRD.wav",
       "Path": "Media/985859729.wem",
-      "CachePath": "8E/{8EFB3406-002E-57BF-FE45-91D8D80D947D}.wem"
+      "CachePath": "9C/{9C1BFE2A-FC29-EECB-58AD-66C4FA83223E}.wem"
      }
     ],
     "Plugins": {
@@ -99,6 +99,6 @@
     ]
    }
   ],
-  "FileHash": "{AF136FB6-8C9A-87C5-BF52-DC71FA97627E}"
+  "FileHash": "{49B7A74D-83BE-4D57-B378-E1E2D0DA97EC}"
  }
 }

@@ -69,6 +69,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="EverythingFar1" ID="{975CB0E0-B84B-41CB-A728-1C0DD2945341}">
+					<ChildrenList>
+						<Action Name="" ID="{25628F8E-7AFF-46BD-A89F-FB1EF7092FDB}" ShortID="911725704">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigRando1" ID="{514C345B-07D4-4AC4-A5DC-DECEEB68C7CB}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

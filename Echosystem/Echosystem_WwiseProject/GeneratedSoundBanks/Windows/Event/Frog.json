@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F1F48923-93AE-4E96-B64E-E51AEEF06BED}",
     "Language": "SFX",
-    "Hash": "{A367740C-AB06-5688-1DC8-702A4A4FF55E}",
+    "Hash": "{9655FBA1-8EEE-BF36-B8FA-7F5B5404F76F}",
     "ObjectPath": "Frog",
     "ShortName": "Frog",
     "Path": "Event/Frog.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{DAF65EAA-5074-7BD1-62FC-21807D6358F2}"
+  "FileHash": "{D41A1A0E-35CA-2BE5-57E1-46CE1A4F0F6A}"
  }
 }

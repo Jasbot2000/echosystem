@@ -30,7 +30,7 @@
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Assets\StreamingAssets\Media" />
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Mac">SoundBanks\</Value>
+						<Value Platform="Mac">..\Assets\StreamingAssets\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
@@ -14303,6 +14303,24 @@
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks">
 					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\Bus">
+					<WorkUnit Name="Bus" ID="{75BD328B-64EC-40AB-8D2D-77B171435856}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\Bus\English(US)">
+					<WorkUnit Name="English(US)" ID="{B1229D0C-7395-4958-B806-F65942E9540C}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\English(US)">
+					<WorkUnit Name="English(US)" ID="{0B167B8F-4BD4-4B52-BD61-7B93691EB4C7}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\Event">
+					<WorkUnit Name="Event" ID="{A3C31363-49DD-4DD8-8569-49427E15C15A}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\Event\English(US)">
+					<WorkUnit Name="English(US)" ID="{1972A070-227A-4D7C-92C2-C9222A5E65D1}" PersistMode="Standalone" />
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\Media">
+					<WorkUnit Name="Media" ID="{4E9B5BAD-A127-4AAA-80BC-F976E2AAE83D}" PersistMode="Standalone" />
 				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
 					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone" />

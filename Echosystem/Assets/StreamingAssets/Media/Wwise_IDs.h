@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID BIRD = 1544377644U;
         static const AkUniqueID BUG = 714721617U;
+        static const AkUniqueID EVERYTHINGFAR1 = 1631330286U;
         static const AkUniqueID FROG = 2492899947U;
         static const AkUniqueID GROUNDLVLSLOW = 4253009213U;
         static const AkUniqueID PLAYRANDOM = 2409657758U;

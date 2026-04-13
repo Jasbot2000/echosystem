@@ -1,0 +1,149 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1631330286",
+    "Type": "Event",
+    "GUID": "{975CB0E0-B84B-41CB-A728-1C0DD2945341}",
+    "Language": "SFX",
+    "Hash": "{80A327FC-7E77-03F6-5EEA-7220A02F8354}",
+    "ObjectPath": "EverythingFar1",
+    "ShortName": "EverythingFar1",
+    "Path": "Event/EverythingFar1.bnk",
+    "Media": [
+     {
+      "Id": "45443638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "InsectWings2.wav",
+      "Path": "Media/45443638.wem",
+      "CachePath": "2A/{2A3AB4F5-D29D-3731-5D4B-1876C54934F9}.wem"
+     },
+     {
+      "Id": "122655079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "NEWBIRD.wav",
+      "Path": "Media/122655079.wem",
+      "CachePath": "6C/{6CBBD11B-4438-AC20-56D4-DBF7E2498CD9}.wem"
+     },
+     {
+      "Id": "344286681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AwesomeTrillingBird.wav",
+      "Path": "Media/344286681.wem",
+      "CachePath": "F2/{F24F8DA9-96C8-8ABB-B258-518B49F922DE}.wem"
+     },
+     {
+      "Id": "418693580",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BugClicking.wav",
+      "Path": "Media/418693580.wem",
+      "CachePath": "73/{735B73DB-D5B3-AD0E-5EF7-F15FA6145855}.wem"
+     },
+     {
+      "Id": "466999564",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SynthFrog1.wav",
+      "Path": "Media/466999564.wem",
+      "CachePath": "67/{672AD32A-3A33-9490-4034-F4E74CBB5E41}.wem"
+     },
+     {
+      "Id": "581449533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Howl.wav",
+      "Path": "Media/581449533.wem",
+      "CachePath": "F6/{F6EBA5AB-F11E-9A41-A290-493A03B41DEC}.wem"
+     },
+     {
+      "Id": "906639210",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Bird3.wav",
+      "Path": "Media/906639210.wem",
+      "CachePath": "CB/{CB059F7E-E009-5449-63B9-6EA1958AD37A}.wem"
+     },
+     {
+      "Id": "1043834648",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "IDKPipe.wav",
+      "Path": "Media/1043834648.wem",
+      "CachePath": "17/{17CB4142-F158-F9A4-B592-EF655A81B1AE}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1631330286",
+      "Name": "EverythingFar1",
+      "ObjectPath": "\\Events\\Default Work Unit\\EverythingFar1",
+      "GUID": "{975CB0E0-B84B-41CB-A728-1C0DD2945341}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "45443638"
+       },
+       {
+        "Id": "122655079"
+       },
+       {
+        "Id": "344286681"
+       },
+       {
+        "Id": "418693580"
+       },
+       {
+        "Id": "466999564"
+       },
+       {
+        "Id": "581449533"
+       },
+       {
+        "Id": "906639210"
+       },
+       {
+        "Id": "1043834648"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E020FEAB-CF2F-190F-D490-CC43086ED560}"
+ }
+}
