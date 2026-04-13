@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{11852270-63C7-4D8E-8321-964E84C92EEF}",
     "Language": "SFX",
-    "Hash": "{FE969391-47F4-06E3-E86C-8069D1FAB80D}",
+    "Hash": "{27266530-9E23-AE08-E523-80CEB13CCCF7}",
     "ObjectPath": "Bird",
     "ShortName": "Bird",
     "Path": "Event/Bird.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{3F30A615-B5BE-C17C-6DE2-906F2784068B}"
+  "FileHash": "{259A582D-4CFD-6C77-4329-8CAAFE44FFD7}"
  }
 }

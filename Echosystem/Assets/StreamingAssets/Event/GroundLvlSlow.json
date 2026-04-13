@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AF526136-8378-4BE9-B02E-D8215C5DF0EF}",
     "Language": "SFX",
-    "Hash": "{9D299FB0-4B17-04E0-0FB0-60B843C360A8}",
+    "Hash": "{DA73AC57-577A-FE68-B893-4C1D72592AB8}",
     "ObjectPath": "GroundLvlSlow",
     "ShortName": "GroundLvlSlow",
     "Path": "Event/GroundLvlSlow.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "InsectWings2.wav",
       "Path": "Media/136808038.wem",
-      "CachePath": "C4/{C4AAA235-2BB9-849B-16C8-45718EDAFC64}.wem"
+      "CachePath": "26/{2634F365-7524-8C71-07BA-47A3BE84C361}.wem"
      },
      {
       "Id": "602202016",
@@ -31,7 +31,7 @@
       "Location": "Loose",
       "ShortName": "Howl.wav",
       "Path": "Media/602202016.wem",
-      "CachePath": "83/{834A0A29-7AD6-F5E9-B5A3-8F814A845264}.wem"
+      "CachePath": "B8/{B84F6D42-7EDC-C487-E46C-83B221E6F5C7}.wem"
      },
      {
       "Id": "700834884",
@@ -40,7 +40,7 @@
       "Location": "Loose",
       "ShortName": "SynthFrog1.wav",
       "Path": "Media/700834884.wem",
-      "CachePath": "A8/{A8C2DD82-D7F5-F66A-332B-7EC01E7F7772}.wem"
+      "CachePath": "7F/{7FA519AE-8368-F0F9-4C05-59B428733E93}.wem"
      }
     ],
     "Plugins": {
@@ -84,6 +84,6 @@
     ]
    }
   ],
-  "FileHash": "{EEBED07B-EA77-5DDB-1D37-1B4F88FFD1E5}"
+  "FileHash": "{3DF7487D-4CC6-5F8A-0FEA-C03D6CEF4244}"
  }
 }

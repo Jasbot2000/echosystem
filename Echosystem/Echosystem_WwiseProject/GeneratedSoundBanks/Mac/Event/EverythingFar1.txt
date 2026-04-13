@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1631330286	EverythingFar1			\Default Work Unit\EverythingFar1	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+

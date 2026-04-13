@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5C339945-08FD-4B38-B85E-CBD227F69613}",
     "Language": "SFX",
-    "Hash": "{0A5F7454-73C4-9414-9867-780B3ECC9741}",
+    "Hash": "{7955A5BD-3A3D-54E6-BDC0-09DEC7B5CC4B}",
     "ObjectPath": "Tree1",
     "ShortName": "Tree1",
     "Path": "Event/Tree1.bnk",
@@ -99,6 +99,6 @@
     ]
    }
   ],
-  "FileHash": "{436262EB-4D93-D62D-BC03-7DD2BC60C285}"
+  "FileHash": "{49B7A74D-83BE-4D57-B378-E1E2D0DA97EC}"
  }
 }
