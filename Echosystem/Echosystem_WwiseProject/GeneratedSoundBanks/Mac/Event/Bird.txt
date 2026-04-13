@@ -1,6 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1544377644	Bird			\Default Work Unit\Bird	
 
-Effect plug-ins	ID	Name	Type				Notes
-	135916062	Have_U_Ever_Been_Outside (Custom)  	Wwise RoomVerb			
-

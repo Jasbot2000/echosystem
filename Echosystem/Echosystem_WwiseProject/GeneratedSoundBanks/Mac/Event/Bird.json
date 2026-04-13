@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{11852270-63C7-4D8E-8321-964E84C92EEF}",
     "Language": "SFX",
-    "Hash": "{E858A08D-E72D-A7F1-C6AD-A74E773FC63B}",
+    "Hash": "{FE969391-47F4-06E3-E86C-8069D1FAB80D}",
     "ObjectPath": "Bird",
     "ShortName": "Bird",
     "Path": "Event/Bird.bnk",
@@ -25,18 +25,6 @@
       "CachePath": "6C/{6CBBD11B-4438-AC20-56D4-DBF7E2498CD9}.wem"
      }
     ],
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "135916062",
-       "Name": "Have_U_Ever_Been_Outside (Custom)  ",
-       "ObjectPath": "\\Containers\\Default Work Unit\\Bird\\[Effect Slot [0]: (RoomVerb)]\\Have_U_Ever_Been_Outside (Custom)  ",
-       "GUID": "{596EA0E4-896E-4AA5-B085-54B185248524}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
-      }
-     ]
-    },
     "Events": [
      {
       "Id": "1544377644",
@@ -50,18 +38,11 @@
        {
         "Id": "122655079"
        }
-      ],
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "135916062"
-        }
-       ]
-      }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{9D99DE9B-EF22-36E8-2C7A-AEB17E0B89C8}"
+  "FileHash": "{5FDDD2EA-E40B-6C19-A5A7-61D9D1059CEA}"
  }
 }

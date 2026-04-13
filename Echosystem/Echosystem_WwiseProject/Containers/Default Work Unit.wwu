@@ -172,33 +172,9 @@
 						</MusicPlaylistContainer>
 					</ChildrenList>
 				</MusicSwitchContainer>
-				<Sound Name="Frog" ID="{9EB5A408-298B-4904-8A07-DE353B925940}" ShortID="851679063">
+				<PropertyContainer Name="SpacializeEverything" ID="{4124644F-D422-423D-9D70-8E22DDD7573A}" ShortID="667261285">
 					<PropertyList>
-						<Property Name="Lowpass" Type="int16">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{10CCDC4A-7AA9-4648-AC1A-7F97A1EC68C4}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="25"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{D5848FF3-E4C5-4B25-8963-D376B39DB575}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="50"/>
-											<Property Name="Min" Type="Real64" Value="-40"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -209,183 +185,718 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="SynthFrog1" ID="{6FC4AB48-CA15-443D-A254-424AA0E4E0EB}">
-							<Language>SFX</Language>
-							<AudioFile>SynthFrog1.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="820090052"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="Effects">
-							<EffectSlot Name="" ID="{5DF2E2B8-CE4E-4E57-BF1A-BB31A2FEE968}" ShortID="238149718">
-								<ReferenceList>
-									<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-										<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-									</Reference>
-								</ReferenceList>
-							</EffectSlot>
-						</ObjectList>
-					</ObjectLists>
-					<ActiveSourceList>
-						<ActiveSource Name="SynthFrog1" ID="{6FC4AB48-CA15-443D-A254-424AA0E4E0EB}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Bird" ID="{82463FF7-3404-4F22-BA7B-D8F1D0FB05F3}" ShortID="791575626">
-					<PropertyList>
-						<Property Name="Lowpass" Type="int16">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{73890167-6BE3-4912-82A2-3D1B82589830}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="15"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{C0577B5B-2974-4065-9782-B996C2691A18}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="50"/>
-											<Property Name="Min" Type="Real64" Value="-40"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="NEWBIRD" ID="{F106C076-9956-48D6-BECE-9261C4E82E40}">
+						<Sound Name="Frog" ID="{9EB5A408-298B-4904-8A07-DE353B925940}" ShortID="851679063">
 							<PropertyList>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="24.2380952380952"/>
-								<Property Name="TrimEnd" Type="Real64" Value="25.952380952381"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>NEWBIRD.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="122655079"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="Effects">
-							<EffectSlot Name="" ID="{3320ED5E-77CC-4766-A697-9D3235B4A6A5}" ShortID="628214406">
-								<ReferenceList>
-									<Reference Name="Effect">
-										<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
-											<Effect Name="Have_U_Ever_Been_Outside (Custom)  " ID="{596EA0E4-896E-4AA5-B085-54B185248524}" ShortID="135916062" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{10CCDC4A-7AA9-4648-AC1A-7F97A1EC68C4}">
 												<PropertyList>
-													<Property Name="DecayTime" Type="Real32" Value="1"/>
-													<Property Name="Density" Type="Real32" Value="83"/>
-													<Property Name="ERFrontBackDelay" Type="Real32" Value="27"/>
-													<Property Name="ERLevel" Type="Real32" Value="-18"/>
-													<Property Name="ERPattern" Type="int32" Value="28"/>
-													<Property Name="Filter1Freq" Type="Real32" Value="210"/>
-													<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
-													<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
-													<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
-													<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
-													<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
-													<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
-													<Property Name="HFDamping" Type="Real32" Value="5.05"/>
-													<Property Name="PreDelay" Type="Real32" Value="62"/>
-													<Property Name="Quality" Type="int32" Value="16"/>
-													<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
-													<Property Name="RoomShape" Type="Real32" Value="31"/>
-													<Property Name="RoomSize" Type="Real32" Value="5"/>
-													<Property Name="StereoWidth" Type="Real32" Value="106"/>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
 												</PropertyList>
-											</Effect>
-										</Custom>
-									</Reference>
-								</ReferenceList>
-							</EffectSlot>
-						</ObjectList>
-					</ObjectLists>
-					<ActiveSourceList>
-						<ActiveSource Name="NEWBIRD" ID="{F106C076-9956-48D6-BECE-9261C4E82E40}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Bug" ID="{7CD19105-5FDB-46D9-8B1D-BD73BB10B3CB}" ShortID="431136354">
-					<PropertyList>
-						<Property Name="Lowpass" Type="int16">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{96E446F7-625F-4E06-93A8-586D934D40E6}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="30"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{B2397965-5FB0-4870-992D-AD1D9C53ECA8}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="50"/>
-											<Property Name="Min" Type="Real64" Value="-40"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="BugClicking" ID="{4547158D-8BEF-493D-8F2B-DB4F38894EA3}">
-							<PropertyList>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="52.530612244898"/>
-								<Property Name="TrimEnd" Type="Real64" Value="56.1224489795918"/>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D5848FF3-E4C5-4B25-8963-D376B39DB575}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-40"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>BugClicking.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="687691714"/>
-							</MediaIDList>
-						</AudioFileSource>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SynthFrog1" ID="{6FC4AB48-CA15-443D-A254-424AA0E4E0EB}">
+									<Language>SFX</Language>
+									<AudioFile>SynthFrog1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="820090052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{5DF2E2B8-CE4E-4E57-BF1A-BB31A2FEE968}" ShortID="238149718">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="SynthFrog1" ID="{6FC4AB48-CA15-443D-A254-424AA0E4E0EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bird" ID="{82463FF7-3404-4F22-BA7B-D8F1D0FB05F3}" ShortID="791575626">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{73890167-6BE3-4912-82A2-3D1B82589830}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C0577B5B-2974-4065-9782-B996C2691A18}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-40"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NEWBIRD" ID="{F106C076-9956-48D6-BECE-9261C4E82E40}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="24.2380952380952"/>
+										<Property Name="TrimEnd" Type="Real64" Value="25.952380952381"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>NEWBIRD.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="122655079"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{3320ED5E-77CC-4766-A697-9D3235B4A6A5}" ShortID="628214406">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+													<Effect Name="Have_U_Ever_Been_Outside (Custom)  " ID="{596EA0E4-896E-4AA5-B085-54B185248524}" ShortID="135916062" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<PropertyList>
+															<Property Name="DecayTime" Type="Real32" Value="1"/>
+															<Property Name="Density" Type="Real32" Value="83"/>
+															<Property Name="ERFrontBackDelay" Type="Real32" Value="27"/>
+															<Property Name="ERLevel" Type="Real32" Value="-18"/>
+															<Property Name="ERPattern" Type="int32" Value="28"/>
+															<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+															<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+															<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+															<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+															<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+															<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+															<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+															<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+															<Property Name="PreDelay" Type="Real32" Value="62"/>
+															<Property Name="Quality" Type="int32" Value="16"/>
+															<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
+															<Property Name="RoomShape" Type="Real32" Value="31"/>
+															<Property Name="RoomSize" Type="Real32" Value="5"/>
+															<Property Name="StereoWidth" Type="Real32" Value="106"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="NEWBIRD" ID="{F106C076-9956-48D6-BECE-9261C4E82E40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bug" ID="{7CD19105-5FDB-46D9-8B1D-BD73BB10B3CB}" ShortID="431136354">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{96E446F7-625F-4E06-93A8-586D934D40E6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B2397965-5FB0-4870-992D-AD1D9C53ECA8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-40"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BugClicking" ID="{4547158D-8BEF-493D-8F2B-DB4F38894EA3}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="52.530612244898"/>
+										<Property Name="TrimEnd" Type="Real64" Value="56.1224489795918"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BugClicking.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="687691714"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{A769456F-8407-4D13-8092-61F8A85F55F0}" ShortID="812901506">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="BugClicking" ID="{4547158D-8BEF-493D-8F2B-DB4F38894EA3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="GroundLvlSlow" ID="{BA6CE992-3431-4E47-9FB5-C4D3F4E97D8F}" ShortID="47612455">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{98E62FAD-C7EE-4C7A-893F-0091FBD60480}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9AC782EB-319E-42C3-9EBC-E26AED3603BA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{07A15239-38E0-443F-96D5-822E9163BFF2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DeepFrog" ID="{F04F5CA1-564F-4E7A-8EAC-7987B7D07B9D}" ShortID="418796678">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E6D5E62F-9388-4270-BA5A-04E98CB14300}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-1330</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F9321EB4-EE7C-43FC-B9C7-9A8ED34CA497}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SynthFrog1" ID="{CA4A729D-F76E-461A-BA76-28A1C7FF27B1}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.71996402877697"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SynthFrog1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="700834884"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{312321D7-3674-4C5E-BB0B-97C7FAEF50F2}" ShortID="348155992">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="SynthFrog1" ID="{CA4A729D-F76E-461A-BA76-28A1C7FF27B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Howl" ID="{7ED8808A-F876-4811-8968-107E3D23C53D}" ShortID="946053766">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Howl" ID="{D04AACD3-9B72-4543-898F-951F6271C0E4}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.76690647482014"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Howl.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="602202016"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{E46F294D-660A-458A-BE4A-8A4773FB4EC2}" ShortID="228340058">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Howl" ID="{D04AACD3-9B72-4543-898F-951F6271C0E4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Insect Wings" ID="{818236CB-D69D-4915-A44B-460BD5757D78}" ShortID="597957126">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Insect Wings" ID="{0C83BA7E-858A-4013-A40E-8412B1D712AB}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.529496402877698"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.25611510791367"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Insect Wings.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="643800161"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="InsectWings2" ID="{61B9A849-629E-4F8D-A1FC-760A41CF914C}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.10791366906475"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>InsectWings2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="136808038"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{57D6BDC9-0D33-4CA0-B927-B543CD29685F}" ShortID="1020119292">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="InsectWings2" ID="{61B9A849-629E-4F8D-A1FC-760A41CF914C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Tree1" ID="{C07531D9-D0CE-4743-A400-0C6F7470F2F9}" ShortID="646848158">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{17FE0D99-821C-4FA9-941F-E7FD7069CB92}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3DEE6DE1-D9EA-4E62-B23E-DE1489491A66}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0CECC20D-C23E-439C-A6FB-68DCC2E62F7F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Bug" ID="{0A03CFCD-EA6B-4491-8E09-DD8CF26969FE}" ShortID="496203406">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7CE7EA8B-BCBB-4A9B-A7B2-9AC1687BA1B4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="30"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5D9DF20F-D00A-4163-AC21-082D81B0DC75}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>65</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BugClicking" ID="{356FD5C1-B70E-4DA2-A803-968C131DC5D9}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="36.1018352664807"/>
+												<Property Name="TrimEnd" Type="Real64" Value="38.7440317134048"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BugClicking.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="418693580"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{9458D0F7-7B00-484B-BB68-D358C82FC772}" ShortID="64015010">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="BugClicking" ID="{356FD5C1-B70E-4DA2-A803-968C131DC5D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AwesomeTrillingBird" ID="{ED096FBD-38EB-4229-8B98-CE6175B8CD86}" ShortID="952227937">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>35</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AwesomeTrillingBird" ID="{5C9C6C6F-1B12-4F95-989D-C046515B24EC}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.823021582733813"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.0705035971223"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AwesomeTrillingBird.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="344286681"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AwesomeTrillingBird" ID="{5C9C6C6F-1B12-4F95-989D-C046515B24EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bird" ID="{2F92FF52-FF1C-46BD-804B-0936CCDCC544}" ShortID="1004391901">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4069DE9F-2A6F-4E1A-913E-0EA6639C03C3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-250</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FDEB1888-D3A1-4B57-86F9-D1FEDFBC06A4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-40"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NEWBIRD" ID="{9674788F-25BD-42D6-B119-86E4CD6DFCEE}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="20.934498115793"/>
+												<Property Name="TrimEnd" Type="Real64" Value="23.0113737581364"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>NEWBIRD.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="985859729"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{8BC2FC77-613C-4DDF-BDED-CEC0E78991A1}" ShortID="666032011">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+															<Effect Name="Have_U_Ever_Been_Outside (Custom)  " ID="{7F49254D-8340-492E-AE21-82D985D08840}" ShortID="856912810" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<PropertyList>
+																	<Property Name="DecayTime" Type="Real32" Value="1"/>
+																	<Property Name="Density" Type="Real32" Value="83"/>
+																	<Property Name="DryLevel" Type="Real32" Value="-12"/>
+																	<Property Name="ERFrontBackDelay" Type="Real32" Value="27"/>
+																	<Property Name="ERLevel" Type="Real32" Value="-18"/>
+																	<Property Name="ERPattern" Type="int32" Value="28"/>
+																	<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+																	<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+																	<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+																	<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+																	<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+																	<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																	<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+																	<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+																	<Property Name="PreDelay" Type="Real32" Value="62"/>
+																	<Property Name="Quality" Type="int32" Value="16"/>
+																	<Property Name="ReverbLevel" Type="Real32" Value="-40"/>
+																	<Property Name="RoomShape" Type="Real32" Value="31"/>
+																	<Property Name="RoomSize" Type="Real32" Value="5"/>
+																	<Property Name="StereoWidth" Type="Real32" Value="106"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="NEWBIRD" ID="{9674788F-25BD-42D6-B119-86E4CD6DFCEE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{E6A6047C-2B66-406B-9F61-ACCAA96DD6FC}" ShortID="641341614">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="Effects">
-							<EffectSlot Name="" ID="{A769456F-8407-4D13-8092-61F8A85F55F0}" ShortID="812901506">
-								<ReferenceList>
-									<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-										<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-									</Reference>
-								</ReferenceList>
-							</EffectSlot>
-						</ObjectList>
-					</ObjectLists>
-					<ActiveSourceList>
-						<ActiveSource Name="BugClicking" ID="{4547158D-8BEF-493D-8F2B-DB4F38894EA3}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</PropertyContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

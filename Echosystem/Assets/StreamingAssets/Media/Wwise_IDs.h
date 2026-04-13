@@ -15,13 +15,10 @@ namespace AK
     {
         static const AkUniqueID BIRD = 1544377644U;
         static const AkUniqueID BUG = 714721617U;
-        static const AkUniqueID CICADASBACKGROUND = 2093786283U;
-        static const AkUniqueID CICADASFOREGROUND = 31267972U;
         static const AkUniqueID FROG = 2492899947U;
+        static const AkUniqueID GROUNDLVLSLOW = 4253009213U;
         static const AkUniqueID PLAYRANDOM = 2409657758U;
-        static const AkUniqueID RIVER = 3605787649U;
-        static const AkUniqueID THUNDER = 186852181U;
-        static const AkUniqueID WINDBASE = 4264094620U;
+        static const AkUniqueID TREE1 = 3882419218U;
     } // namespace EVENTS
 
     namespace BANKS

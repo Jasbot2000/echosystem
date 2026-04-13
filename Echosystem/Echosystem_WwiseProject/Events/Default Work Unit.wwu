@@ -47,6 +47,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Tree1" ID="{5C339945-08FD-4B38-B85E-CBD227F69613}">
+					<ChildrenList>
+						<Action Name="" ID="{1397023E-6257-4C4E-A5E4-02DC21EC678A}" ShortID="563963929">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tree1" ID="{C07531D9-D0CE-4743-A400-0C6F7470F2F9}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GroundLvlSlow" ID="{AF526136-8378-4BE9-B02E-D8215C5DF0EF}">
+					<ChildrenList>
+						<Action Name="" ID="{ACC6E5E5-7A7D-4241-9FC0-1FF2471C03EE}" ShortID="739224638">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GroundLvlSlow" ID="{BA6CE992-3431-4E47-9FB5-C4D3F4E97D8F}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

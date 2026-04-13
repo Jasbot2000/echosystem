@@ -1,0 +1,89 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "4253009213",
+    "Type": "Event",
+    "GUID": "{AF526136-8378-4BE9-B02E-D8215C5DF0EF}",
+    "Language": "SFX",
+    "Hash": "{D4F54CFF-5C31-033A-4911-6D46069A8672}",
+    "ObjectPath": "GroundLvlSlow",
+    "ShortName": "GroundLvlSlow",
+    "Path": "Event/GroundLvlSlow.bnk",
+    "Media": [
+     {
+      "Id": "136808038",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "InsectWings2.wav",
+      "Path": "Media/136808038.wem",
+      "CachePath": "26/{2634F365-7524-8C71-07BA-47A3BE84C361}.wem"
+     },
+     {
+      "Id": "602202016",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Howl.wav",
+      "Path": "Media/602202016.wem",
+      "CachePath": "B8/{B84F6D42-7EDC-C487-E46C-83B221E6F5C7}.wem"
+     },
+     {
+      "Id": "700834884",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SynthFrog1.wav",
+      "Path": "Media/700834884.wem",
+      "CachePath": "7F/{7FA519AE-8368-F0F9-4C05-59B428733E93}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "4253009213",
+      "Name": "GroundLvlSlow",
+      "ObjectPath": "\\Events\\Default Work Unit\\GroundLvlSlow",
+      "GUID": "{AF526136-8378-4BE9-B02E-D8215C5DF0EF}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "136808038"
+       },
+       {
+        "Id": "602202016"
+       },
+       {
+        "Id": "700834884"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EB795712-021C-27BB-1387-8DE111578D0B}"
+ }
+}
