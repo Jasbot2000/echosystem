@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3426925549",
+    "Type": "Event",
+    "GUID": "{14EBB760-70C5-49E4-9A18-73016EC2AB40}",
+    "Language": "SFX",
+    "Hash": "{24F69365-102D-739F-D360-4ED5F882881B}",
+    "ObjectPath": "DirectionalWind",
+    "ShortName": "DirectionalWind",
+    "Path": "Event/DirectionalWind.bnk",
+    "Media": [
+     {
+      "Id": "675904576",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Echosystem Directional Wind.wav",
+      "Path": "Media/675904576.wem",
+      "CachePath": "56/{563C2B96-CA97-C6CA-517D-5AA90A7D725C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3426925549",
+      "Name": "DirectionalWind",
+      "ObjectPath": "\\Events\\Default Work Unit\\DirectionalWind",
+      "GUID": "{14EBB760-70C5-49E4-9A18-73016EC2AB40}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "675904576"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5A87B552-5487-CED6-3BFF-D1349D878FFE}"
+ }
+}

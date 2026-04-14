@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3605787649	River			\Default Work Unit\River	
 
 Effect plug-ins	ID	Name	Type				Notes
-	4239446561	Dual_Filters_Narrow_Bandwidth	Wwise Parametric EQ			
+	442088614	Parametric EQ (Custom)	Wwise Parametric EQ			
 

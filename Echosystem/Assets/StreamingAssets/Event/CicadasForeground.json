@@ -8,21 +8,21 @@
    {
     "Id": "31267972",
     "Type": "Event",
-    "GUID": "{93DC0671-8A42-4E5D-8069-DE8B86A7B3BF}",
+    "GUID": "{8BF9F478-9D26-4522-9898-427B631A1594}",
     "Language": "SFX",
-    "Hash": "{FA1BED17-9AA9-97EF-CEA7-D83EDEF447BB}",
+    "Hash": "{9BB1F091-E063-085D-58EF-AA04852DF124}",
     "ObjectPath": "CicadasForeground",
     "ShortName": "CicadasForeground",
     "Path": "Event/CicadasForeground.bnk",
     "Media": [
      {
-      "Id": "160046872",
+      "Id": "851124241",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
       "ShortName": "Echosystem Cicadas Foreground.wav",
-      "Path": "Media/160046872.wem",
-      "CachePath": "D0/{D0A26C71-975A-AD4C-49EF-01718615772D}.wem"
+      "Path": "Media/851124241.wem",
+      "CachePath": "A0/{A01DD85A-65A8-0965-FB3A-89DA99865562}.wem"
      }
     ],
     "Events": [
@@ -30,17 +30,17 @@
       "Id": "31267972",
       "Name": "CicadasForeground",
       "ObjectPath": "\\Events\\Default Work Unit\\CicadasForeground",
-      "GUID": "{93DC0671-8A42-4E5D-8069-DE8B86A7B3BF}",
+      "GUID": "{8BF9F478-9D26-4522-9898-427B631A1594}",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "160046872"
+        "Id": "851124241"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{CB68FB33-BD78-AFFB-0E93-7895AA1CBEB7}"
+  "FileHash": "{932DA809-C807-CA36-0F01-A95067F70F75}"
  }
 }

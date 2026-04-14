@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3885691887",
+    "Type": "Event",
+    "GUID": "{8A1294E5-58F5-41E0-B06D-99AB357B8355}",
+    "Language": "SFX",
+    "Hash": "{CEB8ED93-0B1E-08F5-2B52-AC705723E781}",
+    "ObjectPath": "TreeRustling",
+    "ShortName": "TreeRustling",
+    "Path": "Event/TreeRustling.bnk",
+    "Media": [
+     {
+      "Id": "747487883",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Echosystem Leaf Rustling.wav",
+      "Path": "Media/747487883.wem",
+      "CachePath": "67/{676B95F2-1F95-510D-4292-204A9C9E1D64}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3885691887",
+      "Name": "TreeRustling",
+      "ObjectPath": "\\Events\\Default Work Unit\\TreeRustling",
+      "GUID": "{8A1294E5-58F5-41E0-B06D-99AB357B8355}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "747487883"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{830E373A-9F5C-6B66-6D0B-BBC680A149BD}"
+ }
+}

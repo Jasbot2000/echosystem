@@ -496,6 +496,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -536,6 +541,11 @@
 								<Sound Name="Howl" ID="{7ED8808A-F876-4811-8968-107E3D23C53D}" ShortID="946053766">
 									<PropertyList>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -581,6 +591,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1171,6 +1186,11 @@
 								</Sound>
 								<Sound Name="AwesomeTrillingBird" ID="{A4E3BC96-130E-4ECE-A3E7-4979090FD39C}" ShortID="193034277">
 									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>35</Value>
@@ -1283,6 +1303,11 @@
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-15</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>35</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1453,6 +1478,246 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</PropertyContainer>
+				<Sound Name="CicadasForeground" ID="{87EEAF30-2442-43FE-BB2B-0384739C3B1B}" ShortID="78113289">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Echosystem Cicadas Foreground" ID="{F6E711C2-0B2F-411F-ABFA-8B710F19DF11}">
+							<Language>SFX</Language>
+							<AudioFile>Echosystem Cicadas Foreground.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="851124241"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{12EBDC63-A913-45E6-85A9-CB0F95475B29}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Echosystem Cicadas Foreground" ID="{F6E711C2-0B2F-411F-ABFA-8B710F19DF11}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="CicadasBackground" ID="{D06E4F51-40D7-471D-9DBC-2FABC5A6A2D0}" ShortID="171783618">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Echosystem Cicadas Background" ID="{B101626F-0109-45C7-8906-D01C68F8819C}">
+							<Language>SFX</Language>
+							<AudioFile>Echosystem Cicadas Background.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="258002065"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Echosystem Cicadas Background" ID="{B101626F-0109-45C7-8906-D01C68F8819C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Thunder" ID="{782F4B07-341D-4B9C-8501-880D6AC5DAE9}" ShortID="872912372">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Echosystem Thunder" ID="{34010E86-24DF-43BA-B274-E4D56048482C}">
+							<Language>SFX</Language>
+							<AudioFile>Echosystem Thunder.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="806385999"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{EBADD105-48EB-4E42-BBE8-7441BBD9D53B}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Echosystem Thunder" ID="{34010E86-24DF-43BA-B274-E4D56048482C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WindBase" ID="{22FBF3E3-C37B-4116-829E-14B6ECE5360A}" ShortID="388638655">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Echosystem Base Wind" ID="{86F9E231-60A2-4554-A797-73C484EADC62}">
+							<Language>SFX</Language>
+							<AudioFile>Echosystem Base Wind.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="63341669"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Echosystem Base Wind" ID="{86F9E231-60A2-4554-A797-73C484EADC62}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="River" ID="{5CAEB672-9D68-4A07-9E52-2ED6AC32ABFB}" ShortID="778021416">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Echosystem Water" ID="{8A1165DC-1F77-4BCF-933A-3E9A6BB9047A}">
+							<Language>SFX</Language>
+							<AudioFile>Echosystem Water.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1061924238"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{2736D3DE-8E87-42ED-808A-FB56D30C1FBF}"/>
+					</PositioningInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{1F2D496A-BF97-492F-8A11-2CC333748413}" ShortID="972486048">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Parametric EQ (Custom)" ID="{B06472FC-212E-486F-95B5-EB2391A3A1FB}" ShortID="442088614" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<PropertyList>
+													<Property Name="FrequencyBand2" Type="Real32" Value="96.42693"/>
+													<Property Name="GainBand2" Type="Real32" Value="-15.05085"/>
+													<Property Name="QFactorBand2" Type="Real32" Value="2"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Echosystem Water" ID="{8A1165DC-1F77-4BCF-933A-3E9A6BB9047A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Directional Wind" ID="{0000CFE1-4153-413A-BA47-66B8C05F1F1A}" ShortID="8462999">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Echosystem Directional Wind" ID="{9935B8DF-393E-446E-9A89-8989C857B965}">
+							<Language>SFX</Language>
+							<AudioFile>Echosystem Directional Wind.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="675904576"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{80BF44AF-73AF-4858-A4EB-7BF1F44E9C00}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Echosystem Directional Wind" ID="{9935B8DF-393E-446E-9A89-8989C857B965}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Directional Tree Rustling" ID="{6DAD9316-7294-45A7-B5C1-BF56D04F6346}" ShortID="928286168">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3AC55C33-07F9-4595-A600-B8ED5FB73564}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{30DF1698-B320-4C1F-9C8A-03D8BE954566}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Echosystem Leaf Rustling" ID="{2BD4DB6D-9BF8-431C-A33A-4F01549727E5}">
+							<Language>SFX</Language>
+							<AudioFile>Echosystem Leaf Rustling.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="747487883"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Echosystem Leaf Rustling" ID="{2BD4DB6D-9BF8-431C-A33A-4F01549727E5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

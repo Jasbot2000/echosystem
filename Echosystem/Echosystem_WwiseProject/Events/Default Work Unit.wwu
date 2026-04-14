@@ -80,6 +80,83 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="River" ID="{EED63FA7-D313-4400-A618-63E3D1A16EA2}">
+					<ChildrenList>
+						<Action Name="" ID="{5AC4A193-2C48-4799-AA95-A0A310720030}" ShortID="454054845">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="River" ID="{5CAEB672-9D68-4A07-9E52-2ED6AC32ABFB}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WindBase" ID="{24E2F48A-B8C1-4F65-B424-0CF2AE916A83}">
+					<ChildrenList>
+						<Action Name="" ID="{EFD85828-75CD-4D07-AC3D-D9EBF5951EDF}" ShortID="26051510">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WindBase" ID="{22FBF3E3-C37B-4116-829E-14B6ECE5360A}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CicadasForeground" ID="{8BF9F478-9D26-4522-9898-427B631A1594}">
+					<ChildrenList>
+						<Action Name="" ID="{72B2A71E-D11B-4B28-A295-694433C6CCB5}" ShortID="398969819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CicadasForeground" ID="{87EEAF30-2442-43FE-BB2B-0384739C3B1B}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CicadasBackground" ID="{E05C2C1A-C95B-4FAE-9BDA-67B883346659}">
+					<ChildrenList>
+						<Action Name="" ID="{50C5906D-FB02-4B5D-B3FC-FD9797780D24}" ShortID="716114788">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CicadasBackground" ID="{D06E4F51-40D7-471D-9DBC-2FABC5A6A2D0}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Thunder" ID="{9C2A07AC-793E-44FD-AF5A-E5F49A0BD2C8}">
+					<ChildrenList>
+						<Action Name="" ID="{22C38B7A-DEE9-4700-9F1F-AD5C0F298131}" ShortID="927065883">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunder" ID="{782F4B07-341D-4B9C-8501-880D6AC5DAE9}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TreeRustling" ID="{8A1294E5-58F5-41E0-B06D-99AB357B8355}">
+					<ChildrenList>
+						<Action Name="" ID="{FDDA3159-C0BA-4ECA-9B6C-D256CA64E8C5}" ShortID="930035838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Directional Tree Rustling" ID="{6DAD9316-7294-45A7-B5C1-BF56D04F6346}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DirectionalWind" ID="{14EBB760-70C5-49E4-9A18-73016EC2AB40}">
+					<ChildrenList>
+						<Action Name="" ID="{BDD9B682-D52E-4754-B867-D12EE68A67E8}" ShortID="87996963">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Directional Wind" ID="{0000CFE1-4153-413A-BA47-66B8C05F1F1A}" WorkUnitID="{2DDC960A-789F-4DA7-9D96-7ED57D6E219F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

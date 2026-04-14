@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{975CB0E0-B84B-41CB-A728-1C0DD2945341}",
     "Language": "SFX",
-    "Hash": "{80A327FC-7E77-03F6-5EEA-7220A02F8354}",
+    "Hash": "{23A0451E-9436-60AB-7DC2-97967DEE093F}",
     "ObjectPath": "EverythingFar1",
     "ShortName": "EverythingFar1",
     "Path": "Event/EverythingFar1.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "InsectWings2.wav",
       "Path": "Media/45443638.wem",
-      "CachePath": "2A/{2A3AB4F5-D29D-3731-5D4B-1876C54934F9}.wem"
+      "CachePath": "7B/{7B85D03B-D74C-665B-63E7-E3A36487FF68}.wem"
      },
      {
       "Id": "122655079",
@@ -58,7 +58,7 @@
       "Location": "Loose",
       "ShortName": "SynthFrog1.wav",
       "Path": "Media/466999564.wem",
-      "CachePath": "67/{672AD32A-3A33-9490-4034-F4E74CBB5E41}.wem"
+      "CachePath": "E8/{E881572B-7347-BF16-493D-3786D0786D0D}.wem"
      },
      {
       "Id": "581449533",
@@ -67,7 +67,7 @@
       "Location": "Loose",
       "ShortName": "Howl.wav",
       "Path": "Media/581449533.wem",
-      "CachePath": "F6/{F6EBA5AB-F11E-9A41-A290-493A03B41DEC}.wem"
+      "CachePath": "19/{19AB4E01-C955-0E0B-1C74-647C1EC0BAFE}.wem"
      },
      {
       "Id": "906639210",
@@ -76,7 +76,7 @@
       "Location": "Loose",
       "ShortName": "Bird3.wav",
       "Path": "Media/906639210.wem",
-      "CachePath": "CB/{CB059F7E-E009-5449-63B9-6EA1958AD37A}.wem"
+      "CachePath": "DA/{DAAA63B5-A55E-F9A6-A549-02E658DEFE7F}.wem"
      },
      {
       "Id": "1043834648",
@@ -85,7 +85,7 @@
       "Location": "Loose",
       "ShortName": "IDKPipe.wav",
       "Path": "Media/1043834648.wem",
-      "CachePath": "17/{17CB4142-F158-F9A4-B592-EF655A81B1AE}.wem"
+      "CachePath": "8B/{8B4548A6-43EF-7731-86F0-533A2A3E0577}.wem"
      }
     ],
     "Plugins": {
@@ -144,6 +144,6 @@
     ]
    }
   ],
-  "FileHash": "{E7B600AD-5B67-721E-0EF8-08DC0EB64406}"
+  "FileHash": "{1A15F97B-1CB3-98A7-20F9-500FBD073EC3}"
  }
 }
