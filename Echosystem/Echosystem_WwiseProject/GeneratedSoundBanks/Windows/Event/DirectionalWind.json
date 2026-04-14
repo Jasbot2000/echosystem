@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3426925549",
+    "Type": "Event",
+    "GUID": "{30FD307C-9103-439E-B805-E967ECCDD97C}",
+    "Language": "SFX",
+    "Hash": "{4AA84B32-384A-B520-E5FB-EF49D20603A4}",
+    "ObjectPath": "DirectionalWind",
+    "ShortName": "DirectionalWind",
+    "Path": "Event/DirectionalWind.bnk",
+    "Media": [
+     {
+      "Id": "611509371",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Echosystem Directional Wind.wav",
+      "Path": "Media/611509371.wem",
+      "CachePath": "56/{563C2B96-CA97-C6CA-517D-5AA90A7D725C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3426925549",
+      "Name": "DirectionalWind",
+      "ObjectPath": "\\Events\\Default Work Unit\\DirectionalWind",
+      "GUID": "{30FD307C-9103-439E-B805-E967ECCDD97C}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "611509371"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CE0175CB-6BB2-A1A2-A966-06B6CC5D5CE4}"
+ }
+}

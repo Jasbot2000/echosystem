@@ -8,20 +8,20 @@
    {
     "Id": "186852181",
     "Type": "Event",
-    "GUID": "{19B9649B-BB7E-4E24-A4C4-ECF408E8E1C3}",
+    "GUID": "{439746CD-CC20-4944-B899-1FAE64B83E7C}",
     "Language": "SFX",
-    "Hash": "{AD5FF030-B7F5-3CED-D099-984ADCA25F0F}",
+    "Hash": "{3ED8A8E0-7D2E-407A-72AC-B1A0D39EBA2D}",
     "ObjectPath": "Thunder",
     "ShortName": "Thunder",
     "Path": "Event/Thunder.bnk",
     "Media": [
      {
-      "Id": "684687446",
+      "Id": "458479515",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
       "ShortName": "Echosystem Thunder.wav",
-      "Path": "Media/684687446.wem",
+      "Path": "Media/458479515.wem",
       "CachePath": "A5/{A5E45384-829C-270F-D418-DD4234803005}.wem"
      }
     ],
@@ -30,17 +30,17 @@
       "Id": "186852181",
       "Name": "Thunder",
       "ObjectPath": "\\Events\\Default Work Unit\\Thunder",
-      "GUID": "{19B9649B-BB7E-4E24-A4C4-ECF408E8E1C3}",
+      "GUID": "{439746CD-CC20-4944-B899-1FAE64B83E7C}",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "684687446"
+        "Id": "458479515"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{C249141E-914E-A144-6C24-D0514E7858DF}"
+  "FileHash": "{593E2527-0537-A680-0FD2-8A5988B7FBD4}"
  }
 }

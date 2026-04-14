@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3828772455",
+    "Type": "Event",
+    "GUID": "{6564578F-D2F4-4B5E-B853-FEA7ED185960}",
+    "Language": "SFX",
+    "Hash": "{CC832D22-785F-B344-0E00-613F3B03329C}",
+    "ObjectPath": "LeavesRustling",
+    "ShortName": "LeavesRustling",
+    "Path": "Event/LeavesRustling.bnk",
+    "Media": [
+     {
+      "Id": "902490315",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Echosystem Leaf Rustling.wav",
+      "Path": "Media/902490315.wem",
+      "CachePath": "67/{676B95F2-1F95-510D-4292-204A9C9E1D64}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3828772455",
+      "Name": "LeavesRustling",
+      "ObjectPath": "\\Events\\Default Work Unit\\LeavesRustling",
+      "GUID": "{6564578F-D2F4-4B5E-B853-FEA7ED185960}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "902490315"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5C0CF1BB-4183-D61A-2813-8DC0205F0E1B}"
+ }
+}

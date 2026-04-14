@@ -8,30 +8,30 @@
    {
     "Id": "3605787649",
     "Type": "Event",
-    "GUID": "{687EF2EF-96C5-44A8-B18E-2257015AD37C}",
+    "GUID": "{94023A2E-039D-4FCF-9FB8-1521D26E97F2}",
     "Language": "SFX",
-    "Hash": "{D7721BFA-0EE6-AE14-D37A-00164FDADBC5}",
+    "Hash": "{A223A5EA-651F-BC3F-390A-F61B97F484ED}",
     "ObjectPath": "River",
     "ShortName": "River",
     "Path": "Event/River.bnk",
     "Media": [
      {
-      "Id": "257528925",
+      "Id": "942916392",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
       "ShortName": "Echosystem Water.wav",
-      "Path": "Media/257528925.wem",
+      "Path": "Media/942916392.wem",
       "CachePath": "86/{86BF929C-DDA8-D2C8-E4D1-B5F66E0164D1}.wem"
      }
     ],
     "Plugins": {
-     "ShareSets": [
+     "Custom": [
       {
-       "Id": "4239446561",
-       "Name": "Dual_Filters_Narrow_Bandwidth",
-       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Band Pass Filters\\Dual_Filters_Narrow_Bandwidth",
-       "GUID": "{A24607C6-04E1-4D41-B513-28C0914D138D}",
+       "Id": "19657503",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Containers\\Default Work Unit\\River\\[Effect Slot [0]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{0090D48E-F40F-4E0C-824C-700DEB5D9FC0}",
        "LibName": "Wwise Parametric EQ",
        "LibId": "6881283"
       }
@@ -42,17 +42,17 @@
       "Id": "3605787649",
       "Name": "River",
       "ObjectPath": "\\Events\\Default Work Unit\\River",
-      "GUID": "{687EF2EF-96C5-44A8-B18E-2257015AD37C}",
+      "GUID": "{94023A2E-039D-4FCF-9FB8-1521D26E97F2}",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "257528925"
+        "Id": "942916392"
        }
       ],
       "PluginRefs": {
-       "ShareSets": [
+       "Custom": [
         {
-         "Id": "4239446561"
+         "Id": "19657503"
         }
        ]
       }
@@ -60,6 +60,6 @@
     ]
    }
   ],
-  "FileHash": "{395EA950-6889-CAA8-90FD-BAAED2F4AAAC}"
+  "FileHash": "{F792BF38-F26F-0773-B595-C981F1088E83}"
  }
 }

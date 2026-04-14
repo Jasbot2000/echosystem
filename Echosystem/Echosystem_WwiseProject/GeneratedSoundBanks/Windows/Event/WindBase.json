@@ -8,20 +8,20 @@
    {
     "Id": "4264094620",
     "Type": "Event",
-    "GUID": "{5DF14863-E084-4BF1-B48C-09BCB446664E}",
+    "GUID": "{C712BA85-531A-4598-9EB0-601A600CD7EA}",
     "Language": "SFX",
-    "Hash": "{BA12863A-53F5-E7F7-23C7-C3EB7767D2F1}",
+    "Hash": "{DE04A168-0FF7-B826-4215-787BDAC68CEE}",
     "ObjectPath": "WindBase",
     "ShortName": "WindBase",
     "Path": "Event/WindBase.bnk",
     "Media": [
      {
-      "Id": "121323184",
+      "Id": "36892796",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
       "ShortName": "Echosystem Base Wind.wav",
-      "Path": "Media/121323184.wem",
+      "Path": "Media/36892796.wem",
       "CachePath": "19/{19E6F6E9-2BEA-DAEE-244E-84897E15B273}.wem"
      }
     ],
@@ -30,17 +30,17 @@
       "Id": "4264094620",
       "Name": "WindBase",
       "ObjectPath": "\\Events\\Default Work Unit\\WindBase",
-      "GUID": "{5DF14863-E084-4BF1-B48C-09BCB446664E}",
+      "GUID": "{C712BA85-531A-4598-9EB0-601A600CD7EA}",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "121323184"
+        "Id": "36892796"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{BC81A1E6-7D9A-2E98-BEB1-B52D9A71BB91}"
+  "FileHash": "{9B783D24-5A5E-8146-8061-254BEA26CC8C}"
  }
 }
